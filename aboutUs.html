@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendors/font-awesome/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <title>smart</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid px-5 pt-3">
+                <a class="navbar-brand ms-5" href="#"><img src="assets/images/smart logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-ul ms-auto">
+                    <li class="nav-item ms-2 text-center">
+                    <a class="nav-link active home" aria-current="page" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item ms-2 text-center">
+                        <a class="nav-link" href="news.html">الاخبار</a>
+                    </li>
+                    <li class="nav-item ms-2 text-center">
+                        <a class="nav-link" href="#service">خدماتنا</a>
+                    </li>
+                    <li class="nav-item ms-2 text-center">
+                        <a class="nav-link" href="#department">قطاعتنا</a>
+                    </li>
+                    <li class="nav-item ms-2 text-center">
+                        <a class="nav-link" href="#seminars">الندوات</a>
+                    </li>
+                    <li class="nav-item ms-2 text-center">
+                        <a class="nav-link text-center" href="">من نحن</a>
+                    </li>
+                    <li class="nav-item ms-2 text-center">
+                        <a class="nav-link" href="#connect">اتصل بنا</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn mx-1 btn-sign text-end" data-bs-toggle="modal" data-bs-target="#modal1">تسجيل الدخول</button>
+                <button type="button" class="btn mx-1 btn-new text-end" data-bs-toggle="modal" data-bs-target="#modal2">عضو جديد</button>
+                </div>
+            </div>
+        </nav>
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="form col-5">
+                            <h3>تسجيل الدخول</h3>
+                            <p>من فضلك قم بإدخال البيانات المطلوبة منك لإستكمال تسجيل الدخول ومعرفة الدرجات والتقديرات الخاصة بك في الجامعة</p>
+                            <div class="form">
+                                
+                                <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="الرقم القومي">
+                                </div>
+                                    <div class="mb-3">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="الرقم الجامعي">
+                                            </div>
+                                </div>
+                                <button class="btn">تسجيل الآن</button>
+                        </div>
+                        </div>
+                        <div class="img col-6">
+                            <img src="./assets/images/modal/modal1.png" alt="">
+                        </div>
+                </div>
+                </div>
+            </div>
+            </div></div>
+            <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="form col-6">
+                                <h3>التسجيل في الندوة</h3>
+                                <p>من فضلك قم بإدخال البيانات المطلوبة منك وسوف يتم إرسال تفاصيل الندوة لك وموعدها علي بريدك الإلكتروني ورقم تذكرة الحضور الخاصة بك</p>
+                                <div class="form">
+                                    
+                                    <div class="mb-3">
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="الاسم بالكامل">
+                                    </div>
+                                        <div class="mb-3">
+                                            <div class="mb-3">
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="رقم الهاتف">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="بريدك الالكتروني">
+                                                    </div>
+                                    </div>
+                                    <button class="btn">تسجيل الآن</button>
+                            </div>
+                            </div>
+                            <div class="img col-6">
+                                <img src="./assets/images/modal/modal2.png" alt="">
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                </div></div>
+    </header>
+    <section id="about-main">
+        <div class="container">
+            <div class="row d-flex justify-content-around">
+                <div class="img col-lg-4 col-md-10 main-img">
+                    <img src="assets/images/aboutUs/main.png" alt="" class="img-fluid">
+                </div>
+                <div class="content col-lg-6 mr-auto">
+                        <img src="assets/images/Group 40.png" alt="" class="img-fluid orange-line">
+                        <div class="h1">
+                            <span class="smart">SMART</span>
+                            <span class="gate">GATE</span>
+                        </div> <!-- h1 -->
+                        <p>تعد شركة سمارت جيت من الشركات الرائدة في صناعة الأفكار الإبداعية والمبتكرة لعملاها حيث تمنح فرصاً فريدة للعملاء للحصول علي حلول متكاملة من مصدر واحد وذلك بتطبيق حلول تقنية متكاملة وبطريقة تهدف لزيادة وسرعة الانتاجية والربحية وبالمشاركة مع شركتنا تصبح الفرصه مواتيه للفوز بعمق التجربة والحلول التقنية الأبعد بكثير من الخبرة المحلية لخدماتنا التي تتضمن تصميم وتطبيق الشبكات السلكية واللاسلكية وتجهيز الاجهزة ومستلزماتها وملحقاتها لكل الاصناف المعروفة والمتناسقة اللازمة لتطوير البرامج والحلول المتكاملة والاستشارات التقنية والمعلوماتية وتصميم المواقع والبرمجيات والتدريب والصيانة وادارة النظم بشكل عام</p>
+                <img src="assets/images/lineBlue.svg" alt="" class="blue">
+            </div>
+            
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="about2">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="content col-lg-5">
+                    <div class="item">
+                        <img src="./assets/images/aboutUs/eye.png" alt="">
+                        <h3>رؤية الشركة</h3>
+                        <p>الأفكار المبدعه والمبتكرة هي طريقنا لبناء علاقتنا مع العميل كفريق عمل واحد بداية من العمل سوياً ثم التشغيل والإدارة نعمل معا ننجح معا - وذلك عن طريق تقديم المنتجات والخدمات ذات الجوده العالية في مجال تكنولوجيا المعلومات لتطوير البرامج والبنية التحتية اللازمة من أجهزة وشبكات وبرمجيات لتطوير الأداء لدي العملاء</p>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/images/aboutUs/Group 9138.png" alt="">
+                        <h3>مهمة الشركة</h3>
+                        <p>مهمتنا المشاركة مع عملائنا لنجعلهم أكثر تنافسية وكفاءه وأكثر فاعلية والمساهمه في استقرارهم بمواقعهم بالسوق والسعى للتقدم والنمو فى مجالات أعمالهم</p>
+                    </div>
+                </div>
+                <div class="img col-lg-5">
+                    <img src="./assets/images/aboutUs/about2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="container">
+            <div class="title">
+                <h2>فريقنا</h2>
+            </div>
+            <div class="row justify-content-around">
+                <div class="card mb-3" style="width: 18rem;">
+                    <img src="./assets/images/aboutUs/team/team1.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h3>رجب علي</h3>
+                        <p class="card-text">المدير العام</p>
+                    </div>
+                </div>
+                <div class="card mb-3" style="width: 18rem;">
+                    <img src="./assets/images/aboutUs/team/team2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h3>احمد مدحت</h3>
+                        <p class="card-text">المدير التنفيذي</p>
+                    </div>
+                </div>
+                <div class="card mb-3" style="width: 18rem;">
+                    <img src="./assets/images/aboutUs/team/team3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h3>خالد السعيد</h3>
+                        <p class="card-text">المساعد التنفيذي</p>
+                    </div>
+                </div>
+                <div class="card mb-3" style="width: 18rem;">
+                    <img src="./assets/images/aboutUs/team/team4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h3>سالم أحمد</h3>
+                        <p class="card-text">مسؤول التسويق</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="img col-md-3">
+                    <img src="./assets/images/smart logo.png" alt="">
+                    <p><i class="fa-solid fa-location-dot"></i> عقار رقم 9 شارع حسن افلاطون ارض الجولف – مدينة نصر</p>
+            </div>
+                <div class="col-md-3 menu"><ul>
+                    <li>الرئيسية</li>
+                    <li>خدماتنا</li>
+                    <li>قطاعتنا</li>
+                    <li>الندوات</li>
+                    <li>من نحن</li>
+                </ul></div>
+                <div class="col-md-3 conn-ul"><ul>
+                    <li>تواصل معنا عبر</li>
+                    <li><i class="fa-solid fa-mobile-screen-button"></i> 01069673344</li>
+                    <li><i class="fa-solid fa-phone"></i> 0224199056</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@smart-gate.net</li>
+                </ul></div>
+                <div class="col-md-3">
+                    <p>تابعنا عبر</p>
+                    <div class="icons">
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="input">
+                    <input type="text" placeholder="بريدك الإلكتروني" class="pe-2">
+                    <button class="btn">اشترك الان</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/vendors/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>

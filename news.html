@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendors/font-awesome/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <title>smart</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid px-5 pt-3">
+                <a class="navbar-brand ms-5" href="#"><img src="assets/images/smart logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-ul ms-auto">
+                    <li class="nav-item ms-2 text-center">
+                    <a class="nav-link active home" aria-current="page" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item ms-2 text-center">
+                        <a class="nav-link" href="#">الاخبار</a>
+                    </li>
+                    <li class="nav-item ms-2 text-center">
+                        <a class="nav-link" href="#service">خدماتنا</a>
+                    </li>
+                    <li class="nav-item ms-2 text-center">
+                        <a class="nav-link" href="#department">قطاعتنا</a>
+                    </li>
+                    <li class="nav-item ms-2 text-center">
+                        <a class="nav-link" href="#seminars">الندوات</a>
+                    </li>
+                    <li class="nav-item ms-2 text-center">
+                        <a class="nav-link text-center" href="aboutUs.html">من نحن</a>
+                    </li>
+                    <li class="nav-item ms-2 text-center">
+                        <a class="nav-link" href="#connect">اتصل بنا</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn mx-1 btn-sign text-end" data-bs-toggle="modal" data-bs-target="#modal1">تسجيل الدخول</button>
+                <button type="button" class="btn mx-1 btn-new text-end" data-bs-toggle="modal" data-bs-target="#modal2">عضو جديد</button>
+                </div>
+            </div>
+        </nav>
+        <!-- Vertically centered modal -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="form col-5">
+                    <h3>تسجيل الدخول</h3>
+                    <p>من فضلك قم بإدخال البيانات المطلوبة منك لإستكمال تسجيل الدخول ومعرفة الدرجات والتقديرات الخاصة بك في الجامعة</p>
+                    <div class="form">
+                        
+                        <div class="mb-3">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="الرقم القومي">
+                        </div>
+                            <div class="mb-3">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="الرقم الجامعي">
+                                    </div>
+                        </div>
+                        <button class="btn">تسجيل الآن</button>
+                </div>
+                </div>
+                <div class="img col-6">
+                    <img src="./assets/images/modal/modal1.png" alt="">
+                </div>
+        </div>
+        </div>
+    </div>
+    </div></div>
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="form col-6">
+                        <h3>التسجيل في الندوة</h3>
+                        <p>من فضلك قم بإدخال البيانات المطلوبة منك وسوف يتم إرسال تفاصيل الندوة لك وموعدها علي بريدك الإلكتروني ورقم تذكرة الحضور الخاصة بك</p>
+                        <div class="form">
+                            
+                            <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="الاسم بالكامل">
+                            </div>
+                                <div class="mb-3">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="رقم الهاتف">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="بريدك الالكتروني">
+                                            </div>
+                            </div>
+                            <button class="btn">تسجيل الآن</button>
+                    </div>
+                    </div>
+                    <div class="img col-6">
+                        <img src="./assets/images/modal/modal2.png" alt="">
+                    </div>
+            </div>
+            </div>
+        </div>
+        </div></div>
+    </header>
+<div class="news py-4" style="margin-top: 90px;">
+    <div class="container">
+        <div class="row flex-column-reverse flex-lg-row">
+            <div class="col-12 col-lg-9 ps-md-5">
+                <div class="card mx-auto border-0">
+                    <img src="./assets/images/news/NoPath - Copy (57).png" class="card-img-top rounded-4" alt="news image" style="height: 250px; object-fit: cover;">
+                    <div class="card-body p-0 p-md-4">
+                      <p class="text-end text-black-50">
+                        الأحد ، الموافق 29 / 01 / 2022
+                      </p>
+                      <p class="card-text text-end fw-bold">
+                        هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "Lorem Ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها. هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص. بينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت على إعادة تكرار مقاطع من نص لوريم إيبسوم نفسه عدة مرات بما تتطلبه الحاجة
+                      </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-lg-3 p-md-0 d-flex d-lg-block flex-wrap justify-content-between">
+                <h2 class="fw-bold text-end my-3" style="font-size: 1rem; flex-basis: 100%;">
+                    اخبار اخري
+                </h2>
+                <div class="card mx-lg-auto border-0 mb-3 col-12 col-lg-12 col-sm-5 col-md-4 pe-md-3 pe-lg-0 mb-4">
+                    <img src="./assets/images/news/news-page/aside1.png" class="card-img-top" alt="news image">
+                    <div class="card-body p-0">
+                        <p class="text-end text-black-50">
+                        الأحد ، الموافق 29 / 01 / 2022
+                        </p>
+                        <p class="card-text text-end fw-bold" style="font-size: 0.8rem;">
+                        هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها
+                        </p>
+                    </div>
+                </div>
+                <div class="card mx-lg-auto border-0 mb-3 col-12 col-lg-12 col-sm-5 col-md-4 pe-md-3 pe-lg-0 mb-4">
+                    <img src="./assets/images/news/news-page/aside3.png" class="card-img-top" alt="news image">
+                    <div class="card-body p-0">
+                        <p class="text-end text-black-50">
+                        الأحد ، الموافق 29 / 01 / 2022
+                        
+                        </p>
+                        <p class="card-text text-end fw-bold" style="font-size: 0.8rem;">
+                        هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها
+                        </p>
+                    </div>
+                </div>
+                <div class="card mx-lg-auto border-0 mb-3 col-12 col-lg-12 col-sm-5 col-md-4 pe-md-3 pe-lg-0 mb-4">
+                    <img src="./assets/images/news/news-page/aside3.png" class="card-img-top" alt="news image">
+                    <div class="card-body p-0">
+                        <p class="text-end text-black-50">
+                        الأحد ، الموافق 29 / 01 / 2022
+                        </p>
+                        <p class="card-text text-end fw-bold" style="font-size: 0.8rem;">
+                        هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="img col-md-3">
+                <img src="./assets/images/smart logo.png" alt="">
+                <p><i class="fa-solid fa-location-dot"></i> عقار رقم 9 شارع حسن افلاطون ارض الجولف – مدينة نصر</p>
+        </div>
+            <div class="col-md-3 menu"><ul>
+                <li>الرئيسية</li>
+                <li>خدماتنا</li>
+                <li>قطاعتنا</li>
+                <li>الندوات</li>
+                <li>من نحن</li>
+            </ul></div>
+            <div class="col-md-3 conn-ul"><ul>
+                <li>تواصل معنا عبر</li>
+                <li><i class="fa-solid fa-mobile-screen-button"></i> 01069673344</li>
+                <li><i class="fa-solid fa-phone"></i> 0224199056</li>
+                <li><i class="fa-solid fa-envelope"></i> info@smart-gate.net</li>
+            </ul></div>
+            <div class="col-md-3">
+                <p>تابعنا عبر</p>
+                <div class="icons">
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="input">
+                <input type="text" placeholder="بريدك الإلكتروني" class="pe-2">
+                <button class="btn">اشترك الان</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="assets/vendors/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
